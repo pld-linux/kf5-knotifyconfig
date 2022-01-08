@@ -1,15 +1,15 @@
-%define		kdeframever	5.89
+%define		kdeframever	5.90
 %define		qtver		5.15.2
 %define		kfname		knotifyconfig
 
 Summary:	Configuration dialog for desktop notifications
 Name:		kf5-%{kfname}
-Version:	5.89.0
+Version:	5.90.0
 Release:	1
 License:	LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/frameworks/%{kdeframever}/%{kfname}-%{version}.tar.xz
-# Source0-md5:	733cfc12dbc63cbd485fe63e28ec1501
+# Source0-md5:	454d7a7d88899751d480ac2a8948860a
 URL:		http://www.kde.org/
 BuildRequires:	Qt5Core-devel >= %{qtver}
 BuildRequires:	Qt5DBus-devel >= %{qtver}
